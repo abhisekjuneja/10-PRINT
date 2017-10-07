@@ -7,7 +7,7 @@ This repository contains the source code for a bunch of Coding Challenges that I
 
 |           Title           |     Start Date      | Completion Date |                Status                 |
 | :-----------------------: | :-----------------: | :-------------: | :-----------------------------------: |
-|         10-PRINT          |  6th October 2017   |   In Progress   | Additional Features & Styling Pending |
-| Pong (Atari Classic Game) |  1st October 2017   |   In Progress   |  Game Physics Scripting in Progress   |
 | Tic-Tac-Toe (Mini-Max AI) | 20th September 2017 |   In Progress   |       Visual Design in Progress       |
+| Pong (Atari Classic Game) |  1st October 2017   |   In Progress   |  Game Physics Scripting in Progress   |
+|         10-PRINT          |  6th October 2017   |   In Progress   | Additional Features & Styling Pending |
 
