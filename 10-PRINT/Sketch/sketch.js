@@ -2,17 +2,14 @@ let sketchHolder = document.getElementById('sketch-holder');
 let scaleFactor = 50;
 let xPos = 0;
 let yPos = 0;
-let lineColor = '#ffffff';
+let stochasticFactor = 0.5
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0);
   var params = getURLParams();
-  console.log(params);
   if(params.scaleFactor != null)
     scaleFactor = Number(params.scaleFactor);
-  if(params.lineColor != null)
-    lineColor = params.lineColor;
 }
 
 function windowResized() {
@@ -20,15 +17,15 @@ function windowResized() {
 }
 
 function draw() {
-  stroke(lineColor);
+  stroke(random(255), random(255), random(255));
   strokeWeight(scaleFactor / 5)
   noFill();
-  drawPattern();
-  console.log();
+  if(yPos < height)
+    drawPattern();
 }
 
 function drawPattern() {
-  if (random(1) < 0.5) {
+  if (random(1) < stochasticFactor) {
     line(xPos, yPos, xPos + scaleFactor, yPos + scaleFactor);
   }
   else {
