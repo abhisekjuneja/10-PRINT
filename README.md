@@ -5,9 +5,9 @@ This repository contains the source code for a bunch of Coding Challenges that I
 
 #### Table of Contents
 
-|           Title           |     Start Date      | Completion Date |                Status                 |
-| :-----------------------: | :-----------------: | :-------------: | :-----------------------------------: |
-| Tic-Tac-Toe (Mini-Max AI) | 20th September 2017 |   In Progress   |       Visual Design in Progress       |
-| Pong (Atari Classic Game) |  1st October 2017   |   In Progress   |  Game Physics Scripting in Progress   |
-|         10-PRINT          |  6th October 2017   |   In Progress   | Additional Features & Styling Pending |
+|                  Title                   |  Attempted During   | Completion Status |             Project State             |
+| :--------------------------------------: | :-----------------: | :---------------: | :-----------------------------------: |
+|        Tic-Tac-Toe (Mini-Max AI)         | 20th September 2017 |    In Progress    |       Visual Design in Progress       |
+|        Pong (Atari Classic Game)         |  1st October 2017   |    In Progress    |  Game Physics Scripting in Progress   |
+| [10-PRINT](https://abhisekjuneja.github.io/Coding-Challenges/10-PRINT/) |    October 2017     |    Final Stage    | Additional Features & Styling Pending |
 
